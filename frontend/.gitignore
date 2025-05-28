@@ -1,0 +1,10 @@
+# Ignore node_modules and build artifacts
+node_modules/
+dist/
+*.log
+
+# But allow all source code
+!src/
+!public/
+!*.js
+!*.json
